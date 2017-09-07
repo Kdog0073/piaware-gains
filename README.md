@@ -26,23 +26,23 @@ If doing SSH and looking for a program, putty is easy to use for windows. Linux 
 If you don't know your piaware IP address, you can click on "My ADSB" on the FlightAware website and look for a field named "Site Local IP"
 
 (1) Install Python:
-pi@piaware:~$ sudo apt-get install python
+pi@piaware:\~$ sudo apt-get install python
 
 (2) Create new blank file:
-pi@piaware:~$ sudo nano gains.py
+pi@piaware:\~$ sudo nano gains.py
 
 (3) Copy code and paste it in newly created file "gains.py". Save file:
 To save in nano: Ctrl + O
 To exit nano: Ctrl + X (You can also exit and if there are modifications, it will ask you to save... Y for yes or N for no)
 
 (4) Make the file "gains.py" executable:
-pi@piaware:~$ sudo chmod +x gains.py
+pi@piaware:\~$ sudo chmod +x gains.py
 
 (5) Run the code:
-pi@piaware:~$ sudo ./gains.py
+pi@piaware:\~$ sudo ./gains.py
 
 (6) Observe results:
 If you observe an optimum result, you can set rtlsdr-gain in the configuration file (for example: "rtlsdr-gain 42.1")
-pi@piaware:~$ sudo nano /boot/piaware-config.txt
+pi@piaware:\~$ sudo nano /boot/piaware-config.txt
 (make and save changes)
-pi@piaware:~$ sudo systemctl restart dump1090-fa
+pi@piaware:\~$ sudo systemctl restart dump1090-fa
