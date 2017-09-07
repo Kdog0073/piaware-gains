@@ -8,7 +8,7 @@ While running the program, look for large differences in values in order to find
 optimum level. If there are multiple spikes in optimum values, choose the highest.
 
 
-~Initial setup~
+*Initial setup*
 
 Piaware setup instructions: https://flightaware.com/adsb/piaware/build
 
@@ -19,7 +19,8 @@ ADDITIONALLY, you must follow the advanced setup instructions located here: http
   Edit the configuration file using Command Line- REQUIRED: in particular, set the field "rtlsdr-gain" must be set (you can start by using "rtlsdr-gain max")
 
   
-~Gains Software~
+*Gains Software*
+
 (0) Log in to the system using the command line:
 If doing SSH and looking for a program, putty is easy to use for windows. Linux and Mac have command line
 If you don't know your piaware IP address, you can click on "My ADSB" on the FlightAware website and look for a field named "Site Local IP"
